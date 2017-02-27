@@ -8,6 +8,9 @@ import com.goeuro.examination.store.SimpleLibrary;
 
 import org.junit.Test;
 
+import java.util.Collections;
+
+import static java.util.Collections.singletonList;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
@@ -37,6 +40,16 @@ public class MainAppTest {
         System.out.println(formatter.format(
                 library.getPublicationsByAuthor("null-walter@goeuro.com")
         ));
+
+        System.out.println(formatter.format(
+                library.getPublicationsSortedByTitle()
+        ));
+
+        System.out.println(formatter.format(
+                singletonList(library.getPublicationByIsbn("5554-5545-4518"))
+        ));
+
+
     }
 
 }

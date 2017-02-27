@@ -53,6 +53,7 @@ public class CsvDataLoader {
                                 .authors(b.getAuthors())
                                 .isbn(b.getIsbnNumber())
                                 .title(b.getTitle())
+                                .description(b.getDescription())
                                 .build()
                 ))
                 .flatMap(a -> Observable.<Void>empty());

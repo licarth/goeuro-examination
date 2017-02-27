@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de9b7889-0b07-4d2a-a3ec-5b22624bbc24" name="Default" comment="">
+    <list default="true" id="de9b7889-0b07-4d2a-a3ec-5b22624bbc24" name="Default" comment="final commit">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/InlinePublicationFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/InlinePublicationFormatter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/CsvFeedReader.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/CsvFeedReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" />
     </list>
     <ignored path="java-examination.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="magazines.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/magazines.csv">
+      <file leaf-file-name="BookPOJO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="324">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedArrayDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedListDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java" />
@@ -106,13 +107,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/ascii/render/V2_Width.java" />
         <option value="$PROJECT_DIR$/src/main/java/render/V2_Width.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/AuthorPOJO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
       </list>
     </option>
   </component>
@@ -213,6 +215,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -229,6 +235,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1304,7 +1318,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488188806897</updated>
-      <workItem from="1488188809089" duration="12108000" />
+      <workItem from="1488188809089" duration="14427000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore&#10;">
       <created>1488193486207</created>
@@ -1327,43 +1341,57 @@
       <option name="project" value="LOCAL" />
       <updated>1488198721317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final commit">
+      <created>1488200931331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488200931331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Better formatting">
+      <created>1488206923348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488206923348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CsvFeedReaderTest_oneAuthorShouldGetParsedCorrectly - 2017.02.27 at 13h 37m 38s.xml">
-      <configuration name="CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvFeedReaderTest_oneAuthorShouldGetParsedCorrectly - 2017.02.27 at 13h 44m 21s.xml">
-      <configuration name="CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 28m 12s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 48m 14s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 28m 49s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 48m 28s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 29m 12s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 49m 46s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 29m 27s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 50m 58s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 30m 13s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 51m 23s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 30m 24s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 51m 49s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 45m 34s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 52m 18s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 46m 53s.xml">
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 52m 34s.xml">
+      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 53m 39s.xml">
+      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 15h 53m 59s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12108000" />
+    <option name="totallyTimeSpent" value="14427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1865" height="1056" extended-state="6" />
@@ -1418,11 +1446,12 @@
     <MESSAGE value="gitignore&#10;" />
     <MESSAGE value="date serialization" />
     <MESSAGE value="final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+    <MESSAGE value="Better formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1487,14 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv.new">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1556,22 +1577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/books.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/magazines.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedListDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1580,14 +1585,6 @@
             <marker date="1488195932486" expanded="true" signature="59:328" ph="..." />
             <marker date="1488195932486" expanded="true" signature="552:631" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,17 +1628,6 @@
           <folding>
             <marker date="1488192833222" expanded="true" signature="59:138" ph="..." />
             <marker date="1488192833222" expanded="true" signature="140:184" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <marker date="1488195968026" expanded="true" signature="59:162" ph="..." />
-            <marker date="1488195968026" expanded="true" signature="164:208" ph="@{...}" />
           </folding>
         </state>
       </provider>
@@ -1903,21 +1889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <marker date="1488200145141" expanded="true" signature="54:488" ph="..." />
-            <marker date="1488200145141" expanded="true" signature="490:536" ph="/**...*/" />
-            <marker date="1488200145141" expanded="true" signature="681:860" ph="{...}" />
-            <marker date="1488200145141" expanded="true" signature="946:1117" ph="{...}" />
-            <marker date="1488200145141" expanded="true" signature="1207:1382" ph="{...}" />
-            <marker date="1488200145141" expanded="true" signature="1468:1712" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1925,18 +1896,6 @@
           <folding>
             <marker date="1488196100126" expanded="true" signature="46:128" ph="..." />
             <marker date="1488196100126" expanded="true" signature="130:144" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <marker date="1488198619048" expanded="true" signature="47:214" ph="..." />
-            <marker date="1488198619048" expanded="true" signature="370:948" ph="{...}" />
-            <marker date="1488198619048" expanded="true" signature="1000:1170" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1972,86 +1931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <marker date="1488196959834" expanded="true" signature="46:426" ph="..." />
-            <marker date="1488196959834" expanded="true" signature="869:1051" ph="{...}" />
-            <marker date="1488196959834" expanded="false" signature="1123:1134" ph=" { " />
-            <marker date="1488196959834" expanded="false" signature="1170:1176" ph=" }" />
-            <marker date="1488196959834" expanded="true" signature="1265:1387" ph="{...}" />
-            <marker date="1488196959834" expanded="true" signature="1451:1662" ph="{...}" />
-            <marker date="1488196959834" expanded="false" signature="1715:1726" ph=" { " />
-            <marker date="1488196959834" expanded="false" signature="1751:1757" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="64" column="69" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
-          <folding>
-            <marker date="1488196232187" expanded="true" signature="40:522" ph="..." />
-            <marker date="1488196232187" expanded="true" signature="524:579" ph="/**...*/" />
-            <marker date="1488196232187" expanded="true" signature="798:1013" ph="{...}" />
-            <marker date="1488196232187" expanded="true" signature="1097:1572" ph="{...}" />
-            <marker date="1488196232187" expanded="true" signature="1551:1557" ph="&lt;~&gt;" />
-            <marker date="1488196232187" expanded="true" signature="1654:2236" ph="{...}" />
-            <marker date="1488196232187" expanded="true" signature="2215:2221" ph="&lt;~&gt;" />
-            <marker date="1488196232187" expanded="true" signature="2323:2982" ph="{...}" />
-            <marker date="1488196232187" expanded="true" signature="2961:2967" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1488191057787" expanded="false" signature="99:110" ph=" { " />
-            <marker date="1488191057787" expanded="false" signature="150:156" ph=" }" />
-            <marker date="1488191057787" expanded="false" signature="205:216" ph=" { " />
-            <marker date="1488191057787" expanded="false" signature="238:244" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <marker date="1488199610476" expanded="false" signature="40:429" ph="..." />
-            <marker date="1488199610476" expanded="true" signature="535:790" ph="{...}" />
-            <marker date="1488199610476" expanded="true" signature="860:1285" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <marker date="1488199128577" expanded="true" signature="54:312" ph="..." />
-            <marker date="1488199128577" expanded="true" signature="427:842" ph="{...}" />
-            <marker date="1488199128577" expanded="true" signature="923:1275" ph="{...}" />
-            <marker date="1488199128577" expanded="true" signature="1360:1713" ph="{...}" />
-            <marker date="1488199128577" expanded="true" signature="1761:2134" ph="{...}" />
-            <marker date="1488199128577" expanded="true" signature="1798:2127" ph="{...}" />
-            <marker date="1488199128577" expanded="true" signature="1860:1876" ph="{...}" />
-            <marker date="1488199128577" expanded="false" signature="1944:1963" ph=" { " />
-            <marker date="1488199128577" expanded="false" signature="1983:1997" ph=" }" />
-            <marker date="1488199128577" expanded="false" signature="2059:2078" ph=" { " />
-            <marker date="1488199128577" expanded="false" signature="2103:2117" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/authors.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -2070,9 +1949,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/magazines.csv">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1488199128577" expanded="true" signature="54:312" ph="..." />
+            <marker date="1488199128577" expanded="true" signature="427:842" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="923:1275" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1360:1713" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1761:2134" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1798:2127" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1860:1876" ph="{...}" />
+            <marker date="1488199128577" expanded="false" signature="1944:1963" ph=" { " />
+            <marker date="1488199128577" expanded="false" signature="1983:1997" ph=" }" />
+            <marker date="1488199128577" expanded="false" signature="2059:2078" ph=" { " />
+            <marker date="1488199128577" expanded="false" signature="2103:2117" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1488196959834" expanded="true" signature="46:426" ph="..." />
+            <marker date="1488196959834" expanded="true" signature="869:1051" ph="{...}" />
+            <marker date="1488196959834" expanded="false" signature="1123:1134" ph=" { " />
+            <marker date="1488196959834" expanded="false" signature="1170:1176" ph=" }" />
+            <marker date="1488196959834" expanded="true" signature="1265:1387" ph="{...}" />
+            <marker date="1488196959834" expanded="true" signature="1451:1662" ph="{...}" />
+            <marker date="1488196959834" expanded="false" signature="1715:1726" ph=" { " />
+            <marker date="1488196959834" expanded="false" signature="1751:1757" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1488191057787" expanded="false" signature="99:110" ph=" { " />
+            <marker date="1488191057787" expanded="false" signature="150:156" ph=" }" />
+            <marker date="1488191057787" expanded="false" signature="205:216" ph=" { " />
+            <marker date="1488191057787" expanded="false" signature="238:244" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1488207216439" expanded="false" signature="40:511" ph="..." />
+            <marker date="1488207216439" expanded="true" signature="617:870" ph="{...}" />
+            <marker date="1488207216439" expanded="true" signature="940:1613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1488207233275" expanded="true" signature="47:405" ph="..." />
+            <marker date="1488207233275" expanded="true" signature="561:1683" ph="{...}" />
+            <marker date="1488207233275" expanded="true" signature="1735:1870" ph="{...}" />
+            <marker date="1488207233275" expanded="true" signature="1941:2059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv.new">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/magazines.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/books.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+          <folding>
+            <marker date="1488207292067" expanded="true" signature="40:488" ph="..." />
+            <marker date="1488207292067" expanded="true" signature="490:545" ph="/**...*/" />
+            <marker date="1488207292067" expanded="true" signature="764:979" ph="{...}" />
+            <marker date="1488207292067" expanded="true" signature="1063:1538" ph="{...}" />
+            <marker date="1488207292067" expanded="true" signature="1517:1523" ph="&lt;~&gt;" />
+            <marker date="1488207292067" expanded="true" signature="1620:2267" ph="{...}" />
+            <marker date="1488207292067" expanded="true" signature="2246:2252" ph="&lt;~&gt;" />
+            <marker date="1488207292067" expanded="true" signature="2354:3013" ph="{...}" />
+            <marker date="1488207292067" expanded="true" signature="2992:2998" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <marker date="1488200145141" expanded="true" signature="54:488" ph="..." />
+            <marker date="1488200145141" expanded="true" signature="490:536" ph="/**...*/" />
+            <marker date="1488200145141" expanded="true" signature="681:860" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="946:1117" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="1207:1382" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="1468:1712" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

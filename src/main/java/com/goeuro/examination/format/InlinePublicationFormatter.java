@@ -17,12 +17,12 @@ public class InlinePublicationFormatter implements StringPublicationFormatter{
 
     @Override
     public String format(List<Publication> publicationList) {
-
         Col[] cols = new Col[]{
                 Col.col().name("Kind").size(8).toString(p -> p.getPublicationType().toString()).build(),
                 Col.col().name("ISBN").size(14).toString(Publication::getIsbn).build(),
                 Col.col().name("Title").size(90).toString(Publication::getTitle).build(),
                 Col.col().name("Authors").size(80).toString(p -> p.getAuthors().toString()).build(),
+                Col.col().name("Description").size(50).toString(Publication::getDescription).build(),
         };
 
         int totalSize = of(cols).reduce(0, (s, c) -> s + c.size, (a, b) -> a + b);
@@ -40,11 +40,12 @@ public class InlinePublicationFormatter implements StringPublicationFormatter{
             out+= "\n";
             out += on(separator).join(of(cols).map(c -> padded(c.toString.apply(p), c.size)).collect(Collectors.toList()));
         }
+        out+= "\n\n";
         return out;
     }
 
     private String padded(String s, int maxLength){
-        String s1 = padEnd(s, maxLength, ' ');
+        String s1 = padEnd(s==null ? "" : s, maxLength, ' ');
         return s1.substring(0, Math.min(s1.length(), maxLength));
     }
 
