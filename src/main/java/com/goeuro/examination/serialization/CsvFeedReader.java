@@ -7,7 +7,6 @@ import com.goeuro.examination.serialization.pojo.AuthorPOJO;
 import com.goeuro.examination.serialization.pojo.BookPOJO;
 import com.goeuro.examination.serialization.pojo.MagazinePOJO;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 
