@@ -48,8 +48,6 @@ public class MainAppTest {
         System.out.println(formatter.format(
                 singletonList(library.getPublicationByIsbn("5554-5545-4518"))
         ));
-
-
     }
 
 }

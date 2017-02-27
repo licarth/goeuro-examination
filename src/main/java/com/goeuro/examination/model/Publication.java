@@ -1,6 +1,6 @@
 package com.goeuro.examination.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 import lombok.Builder;
@@ -15,6 +15,6 @@ public class Publication {
     private String title;
     private String isbn;
     private String description;
-    private Date publishedAt;
+    private LocalDate publishedAt;
 
 }

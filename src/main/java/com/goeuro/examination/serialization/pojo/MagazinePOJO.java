@@ -3,7 +3,7 @@ package com.goeuro.examination.serialization.pojo;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 import lombok.AllArgsConstructor;
@@ -23,6 +23,6 @@ public class MagazinePOJO {
     private List<String> authors;
 
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd.MM.yyyy", timezone="CET")
-    private Date publishedAt;
+    private LocalDate publishedAt;
 
 }

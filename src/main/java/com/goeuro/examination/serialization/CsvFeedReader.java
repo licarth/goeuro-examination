@@ -3,6 +3,7 @@ package com.goeuro.examination.serialization;
 import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.goeuro.examination.serialization.pojo.AuthorPOJO;
 import com.goeuro.examination.serialization.pojo.BookPOJO;
 import com.goeuro.examination.serialization.pojo.MagazinePOJO;
@@ -43,7 +44,11 @@ public class CsvFeedReader implements FeedReader {
 
     private <T> MappingIterator<T> read(URI uri, Class<T> klass) throws IOException {
         CsvSchema schema = CsvSchema.emptySchema().withHeader().withColumnSeparator(';');
-        return new CsvMapper()
+
+        CsvMapper csvMapper = new CsvMapper();
+        csvMapper.registerModule(new JavaTimeModule());
+
+        return csvMapper
                 .readerWithSchemaFor(klass)
                 .with(schema)
                 .readValues(uri.toURL());

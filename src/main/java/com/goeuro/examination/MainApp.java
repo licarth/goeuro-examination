@@ -6,7 +6,7 @@ public class MainApp {
         System.out.println(getHelloWorldText());
     }
 
-    protected static String getHelloWorldText() {
+    static String getHelloWorldText() {
         return "Hello world!";
     }
 
