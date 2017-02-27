@@ -31,6 +31,7 @@ public class CsvFeedReaderTest {
                 .subscribe(s);
 
         s.awaitTerminalEvent();
+        //
         s.assertValueCount(1);
     }
 

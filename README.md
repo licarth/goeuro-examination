@@ -18,8 +18,8 @@ be anything else than the pure reflection of the csv structures. NO LOGIC IN THE
 
 ### Possible enhancements
 * ASYNC loading of CSVs with rxJava. --> DONE
+* Data validation and error handling.
 
 ### Difficulties 
 * CSV ',' values within csv ';' rows for author lists.
 * Date deserialization (non-standard format)
-* Data validation and error handling.

@@ -9,10 +9,9 @@ public interface Library {
 
     List<Publication> getPublicationsSortedByTitle();
     Publication getPublicationByIsbn(String isbn);
-    List<Publication> getPublicationsByAuthor(String isbn);
+    List<Publication> getPublicationsByAuthor(String authorEmail);
 
     void insert(Publication publication);
     void insert(Author author);
-
 
 }

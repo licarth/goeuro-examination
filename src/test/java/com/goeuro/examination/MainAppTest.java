@@ -3,6 +3,7 @@ package com.goeuro.examination;
 import com.goeuro.examination.format.InlinePublicationFormatter;
 import com.goeuro.examination.format.StringPublicationFormatter;
 import com.goeuro.examination.serialization.CsvFeedReader;
+import com.goeuro.examination.store.Library;
 import com.goeuro.examination.store.SimpleLibrary;
 
 import org.junit.Test;
@@ -23,13 +24,19 @@ public class MainAppTest {
 
     @Test
     public void testFormatPublications() throws Exception {
+
         StringPublicationFormatter formatter = new InlinePublicationFormatter();
-        SimpleLibrary library = new SimpleLibrary();
+
+        Library library = new SimpleLibrary();
+
         new CsvDataLoader(new CsvFeedReader(), library)
                 .loadCsvResources()
-                .toBlocking().subscribe();
+                .toBlocking()
+                .subscribe();
 
-        System.out.println(formatter.format(library.getPublicationsSortedByTitle()));
+        System.out.println(formatter.format(
+                library.getPublicationsByAuthor("null-ferdinand@goeuro.com")
+        ));
     }
 
 }

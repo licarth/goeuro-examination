@@ -47,6 +47,6 @@ public class CsvFeedReader implements FeedReader {
         return new CsvMapper()
                 .readerWithSchemaFor(klass)
                 .with(schema)
-                .readValues(new File(uri));
+                .readValues(uri.toURL());
     }
 }

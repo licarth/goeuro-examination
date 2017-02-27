@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9b7889-0b07-4d2a-a3ec-5b22624bbc24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedListDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/store/Store.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Store.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/InlinePublicationFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/InlinePublicationFormatter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/JsonPublicationFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/format/JsonPublicationFormatter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/model/Author.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/model/Author.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/model/Publication.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/model/Publication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/CsvFeedReader.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/CsvFeedReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/FeedReader.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/FeedReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/pojo/BookPOJO.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/pojo/BookPOJO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/pojo/MagazinePOJO.class" afterPath="$PROJECT_DIR$/target/classes/com/goeuro/examination/serialization/pojo/MagazinePOJO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/goeuro/examination/MainAppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/goeuro/examination/MainAppTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-examination.iml" afterPath="$PROJECT_DIR$/java-examination.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Author.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Author.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/FeedReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/FeedReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" afterPath="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" />
     </list>
     <ignored path="java-examination.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,14 +29,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InlinePublicationFormatter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java">
+      <file leaf-file-name="magazines.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/magazines.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,13 +85,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/Datasource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvDatasource.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvDatasourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/AuthorPOJO.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/authors.csv" />
         <option value="$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/DatePOJO.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/books.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/ListDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/FeedReader.java" />
@@ -124,17 +99,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/V2_AsciiTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/ascii/render/V2_Width.java" />
         <option value="$PROJECT_DIR$/src/main/java/render/V2_Width.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/AuthorPOJO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java" />
       </list>
     </option>
   </component>
@@ -235,40 +213,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-examination" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examination" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -311,6 +255,126 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="format" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1218,9 +1282,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.MainAppTest.testFormatPublications" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.onMagazineShouldGetSerializedProperly" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.onBookShouldGetSerializedProperly" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.onMagazineShouldGetSerializedProperly" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest.onBookShouldGetSerializedProperly" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CsvFeedReaderTest" />
       </list>
     </recent_temporary>
@@ -1240,7 +1304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488188806897</updated>
-      <workItem from="1488188809089" duration="9885000" />
+      <workItem from="1488188809089" duration="12108000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore&#10;">
       <created>1488193486207</created>
@@ -1256,21 +1320,22 @@
       <option name="project" value="LOCAL" />
       <updated>1488194408952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final commit">
+      <created>1488198721317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488198721317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 25m 11s.xml">
-      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    <history-entry file="CsvFeedReaderTest_oneAuthorShouldGetParsedCorrectly - 2017.02.27 at 13h 37m 38s.xml">
+      <configuration name="CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 25m 20s.xml">
-      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 26m 51s.xml">
-      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 27m 51s.xml">
-      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    <history-entry file="CsvFeedReaderTest_oneAuthorShouldGetParsedCorrectly - 2017.02.27 at 13h 44m 21s.xml">
+      <configuration name="CsvFeedReaderTest.oneAuthorShouldGetParsedCorrectly" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 28m 12s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
@@ -1290,9 +1355,15 @@
     <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 30m 24s.xml">
       <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 45m 34s.xml">
+      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainAppTest_testFormatPublications - 2017.02.27 at 13h 46m 53s.xml">
+      <configuration name="MainAppTest.testFormatPublications" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9885000" />
+    <option name="totallyTimeSpent" value="12108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1865" height="1056" extended-state="6" />
@@ -1304,7 +1375,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="155" y="152" width="1665" height="856" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="155" y="180" width="1665" height="856" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13853766" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44408602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1346,7 +1417,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore&#10;" />
     <MESSAGE value="date serialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="date serialization" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,42 +1431,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/PublicationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/DatePOJO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/books.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1445,128 +1487,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/magazines.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv.new">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1488195513443" expanded="true" signature="46:81" ph="..." />
-            <marker date="1488195513443" expanded="true" signature="83:97" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/FeedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1488195245154" expanded="true" signature="54:302" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedListDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <marker date="1488195932486" expanded="true" signature="59:328" ph="..." />
-            <marker date="1488195932486" expanded="true" signature="552:631" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1488195968038" expanded="true" signature="59:304" ph="..." />
-            <marker date="1488195968038" expanded="true" signature="306:350" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <marker date="1488195968026" expanded="true" signature="59:162" ph="..." />
-            <marker date="1488195968026" expanded="true" signature="164:208" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/AuthorPOJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1488192833222" expanded="true" signature="59:138" ph="..." />
-            <marker date="1488192833222" expanded="true" signature="140:184" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <marker date="1488196100126" expanded="true" signature="46:128" ph="..." />
-            <marker date="1488196100126" expanded="true" signature="130:144" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <marker date="1488196232203" expanded="true" signature="54:488" ph="..." />
-            <marker date="1488196232203" expanded="true" signature="490:536" ph="/**...*/" />
-            <marker date="1488196232203" expanded="true" signature="681:860" ph="{...}" />
-            <marker date="1488196232203" expanded="true" signature="946:1117" ph="{...}" />
-            <marker date="1488196232203" expanded="true" signature="1207:1382" ph="{...}" />
-            <marker date="1488196232203" expanded="true" signature="1468:1714" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1488196968782" expanded="true" signature="46:155" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,47 +1520,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1488191057787" expanded="false" signature="99:110" ph=" { " />
-            <marker date="1488191057787" expanded="false" signature="150:156" ph=" }" />
-            <marker date="1488191057787" expanded="false" signature="205:216" ph=" { " />
-            <marker date="1488191057787" expanded="false" signature="238:244" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1488196959834" expanded="true" signature="46:426" ph="..." />
-            <marker date="1488196959834" expanded="true" signature="869:1051" ph="{...}" />
-            <marker date="1488196959834" expanded="false" signature="1123:1134" ph=" { " />
-            <marker date="1488196959834" expanded="false" signature="1170:1176" ph=" }" />
-            <marker date="1488196959834" expanded="true" signature="1265:1387" ph="{...}" />
-            <marker date="1488196959834" expanded="true" signature="1451:1662" ph="{...}" />
-            <marker date="1488196959834" expanded="false" signature="1715:1726" ph=" { " />
-            <marker date="1488196959834" expanded="false" signature="1751:1757" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/StringPublicationFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <marker date="1488191057811" expanded="true" signature="47:112" ph="..." />
-            <marker date="1488191057811" expanded="true" signature="115:198" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/V2_AsciiTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1660,10 +1544,455 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1488197144061" expanded="true" signature="47:112" ph="..." />
+            <marker date="1488197144061" expanded="false" signature="265:276" ph=" { " />
+            <marker date="1488197144061" expanded="false" signature="288:294" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/books.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/magazines.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/CommaSeparatedListDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1488195932486" expanded="true" signature="59:328" ph="..." />
+            <marker date="1488195932486" expanded="true" signature="552:631" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/goeuro/examination/data/authors.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/PublicationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1488195513443" expanded="true" signature="46:81" ph="..." />
+            <marker date="1488195513443" expanded="true" signature="83:97" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="360">
+            <caret line="20" column="17" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/AuthorPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1488192833222" expanded="true" signature="59:138" ph="..." />
+            <marker date="1488192833222" expanded="true" signature="140:184" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/BookPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <marker date="1488195968026" expanded="true" signature="59:162" ph="..." />
+            <marker date="1488195968026" expanded="true" signature="164:208" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar!/com/fasterxml/jackson/databind/ObjectReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="611" column="34" selection-start-line="611" selection-start-column="34" selection-end-line="611" selection-end-column="34" />
+          <folding>
+            <marker date="1454331835481" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1454331835481" expanded="false" signature="154:2879" ph="..." />
+            <marker date="1454331835481" expanded="true" signature="3828:3939" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="4117:4880" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="5129:5858" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="5936:6517" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="6580:7222" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="7290:7863" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="7893:7904" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="7934:7940" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="8008:8057" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="8140:8194" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="8448:8584" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="8729:8841" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="8916:9306" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="9378:9506" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="9569:9631" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="9725:9792" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="9867:9938" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="10004:10069" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="10166:10236" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="10314:10388" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="10435:10446" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="10492:10498" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="10558:10629" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="10680:10745" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="10808:10882" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="10942:10953" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="10979:10985" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="11051:11271" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="11320:11331" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="11371:11377" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="11423:11677" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="11733:11827" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="11889:11960" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="12004:12087" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="12139:12448" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="12502:13003" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="13057:13132" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="13197:13302" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="13308:13326" ph="/**...*/" />
+            <marker date="1454331835481" expanded="false" signature="13395:13406" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="13437:13443" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="13449:13467" ph="/**...*/" />
+            <marker date="1454331835481" expanded="true" signature="13537:13612" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="13618:13636" ph="/**...*/" />
+            <marker date="1454331835481" expanded="true" signature="13702:13794" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="13800:13818" ph="/**...*/" />
+            <marker date="1454331835481" expanded="true" signature="13899:14004" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="14062:14628" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="14684:14753" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="14793:14804" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="14844:14850" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="14893:14904" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="14945:14951" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="15022:15085" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15145:15213" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15284:15364" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15437:15599" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15655:15715" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15783:15876" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="15942:16039" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="16094:16187" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="16255:16582" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="16638:16649" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="16682:16688" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="16735:16746" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="16779:16785" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="16826:16837" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="16877:16883" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="16929:16940" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="16960:16966" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="17003:17014" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="17041:17047" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="17088:17099" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="17136:17142" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="17188:17199" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="17235:17241" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="17292:17303" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="17333:17339" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="17427:17486" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="17594:17655" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="17774:17838" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="17950:18021" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="18129:18190" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="18309:18371" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="18501:18566" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="18689:18753" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="18872:18934" ph="{...}" />
+            <marker date="1454331835481" expanded="false" signature="18973:18984" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="19033:19039" ph=" }" />
+            <marker date="1454331835481" expanded="false" signature="19079:19090" ph=" { " />
+            <marker date="1454331835481" expanded="false" signature="19140:19146" ph=" }" />
+            <marker date="1454331835481" expanded="true" signature="19195:19262" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="19366:19410" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="19477:19535" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="19625:19833" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="19918:20127" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="20212:20421" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="20506:20686" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="20795:20992" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="21075:21301" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="21383:21609" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="21696:21890" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="21981:22156" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="22241:22452" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="22540:22757" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="22862:23036" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="23144:23362" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="23465:23886" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="23990:24413" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="24540:24774" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="24883:24942" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="25043:25280" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="25380:25616" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="25710:25992" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="26098:26190" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="26274:27365" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="27422:27589" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="27659:29057" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="29135:29390" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="29460:30152" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="30243:30474" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="30632:32201" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="32299:32603" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="32700:33012" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="33155:33472" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="33558:33896" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="34009:34176" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="34236:34497" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="34586:34679" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="34769:34951" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="35020:35060" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="35128:35174" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="35294:36174" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="36294:36743" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="36830:37626" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="37669:37750" ph="{...}" />
+            <marker date="1454331835481" expanded="true" signature="37800:37883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/pojo/MagazinePOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1488195968038" expanded="true" signature="59:304" ph="..." />
+            <marker date="1488195968038" expanded="true" signature="306:350" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="402" column="15" selection-start-line="402" selection-start-column="15" selection-end-line="402" selection-end-column="15" />
+          <folding>
+            <marker date="1469074878000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1469074878000" expanded="false" signature="133:1284" ph="..." />
+            <marker date="1469074878000" expanded="false" signature="2413:2424" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="2454:2460" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="2511:2680" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="2735:3682" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="3727:3738" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="3775:3781" ph=" }" />
+            <marker date="1469074878000" expanded="false" signature="3810:3821" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="3876:3882" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="3957:4008" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="4100:5147" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="5203:5492" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="5576:5786" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="5862:6850" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="6514:6578" ph="run() → {" />
+            <marker date="1469074878000" expanded="false" signature="6706:6729" ph="}" />
+            <marker date="1469074878000" expanded="true" signature="6928:6983" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="6989:7007" ph="/**...*/" />
+            <marker date="1469074878000" expanded="true" signature="7122:7218" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="7331:7419" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="7501:8034" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="8104:8326" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="8399:8623" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="8759:9013" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="9133:9839" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="10250:10387" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="10447:11374" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="11449:12698" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="12752:12763" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="12788:12794" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="12939:13454" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="13515:13595" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="13717:13795" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="13928:13939" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="13961:13967" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="14009:14296" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="14371:14701" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="14746:14757" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="14769:14775" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="14854:14908" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="14988:15134" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="15189:15326" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="15414:15553" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="15612:15768" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="15860:16216" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="15972:16209" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="16010:16029" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="16076:16090" ph=" }" />
+            <marker date="1469074878000" expanded="false" signature="16136:16155" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="16185:16199" ph=" }" />
+            <marker date="1469074878000" expanded="false" signature="16265:16276" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="16316:16322" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="16380:16573" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="16644:16838" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="16902:17223" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="17299:17629" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="17692:18656" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="18699:18913" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="19010:19096" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="19151:19215" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="19293:19611" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="19782:20220" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="20268:21076" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="21116:21809" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="21856:21867" ph=" { " />
+            <marker date="1469074878000" expanded="false" signature="21879:21885" ph=" }" />
+            <marker date="1469074878000" expanded="true" signature="21943:22707" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="22779:24852" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="24989:27625" ph="{...}" />
+            <marker date="1469074878000" expanded="false" signature="25159:25221" ph="run() → {" />
+            <marker date="1469074878000" expanded="false" signature="25294:25313" ph="}" />
+            <marker date="1469074878000" expanded="true" signature="27685:28165" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="28223:28492" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="28563:28860" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="28929:29222" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="29263:29526" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="29576:30563" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="30612:31213" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="31301:31506" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="31539:33081" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="31930:32041" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="32077:32924" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="32965:33075" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="33124:34084" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="33284:33295" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="33364:33683" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="33756:33908" ph="{...}" />
+            <marker date="1469074878000" expanded="true" signature="33925:34078" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/CsvFeedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <marker date="1488200145141" expanded="true" signature="54:488" ph="..." />
+            <marker date="1488200145141" expanded="true" signature="490:536" ph="/**...*/" />
+            <marker date="1488200145141" expanded="true" signature="681:860" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="946:1117" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="1207:1382" ph="{...}" />
+            <marker date="1488200145141" expanded="true" signature="1468:1712" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/model/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <marker date="1488196100126" expanded="true" signature="46:128" ph="..." />
+            <marker date="1488196100126" expanded="true" signature="130:144" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <marker date="1488198619048" expanded="true" signature="47:214" ph="..." />
+            <marker date="1488198619048" expanded="true" signature="370:948" ph="{...}" />
+            <marker date="1488198619048" expanded="true" signature="1000:1170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/StringPublicationFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <marker date="1488191057811" expanded="true" signature="47:112" ph="..." />
+            <marker date="1488191057811" expanded="true" signature="115:198" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/serialization/FeedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1488195245154" expanded="true" signature="54:302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1488200886134" expanded="true" signature="46:155" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/store/SimpleLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1488196959834" expanded="true" signature="46:426" ph="..." />
+            <marker date="1488196959834" expanded="true" signature="869:1051" ph="{...}" />
+            <marker date="1488196959834" expanded="false" signature="1123:1134" ph=" { " />
+            <marker date="1488196959834" expanded="false" signature="1170:1176" ph=" }" />
+            <marker date="1488196959834" expanded="true" signature="1265:1387" ph="{...}" />
+            <marker date="1488196959834" expanded="true" signature="1451:1662" ph="{...}" />
+            <marker date="1488196959834" expanded="false" signature="1715:1726" ph=" { " />
+            <marker date="1488196959834" expanded="false" signature="1751:1757" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/CsvDataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="230">
+          <caret line="64" column="69" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
           <folding>
             <marker date="1488196232187" expanded="true" signature="40:522" ph="..." />
             <marker date="1488196232187" expanded="true" signature="524:579" ph="/**...*/" />
@@ -1678,31 +2007,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <marker date="1488194234452" expanded="true" signature="54:312" ph="..." />
-            <marker date="1488194234452" expanded="true" signature="427:842" ph="{...}" />
-            <marker date="1488194234452" expanded="true" signature="923:1264" ph="{...}" />
-            <marker date="1488194234452" expanded="true" signature="1349:1702" ph="{...}" />
-            <marker date="1488194234452" expanded="true" signature="1750:2123" ph="{...}" />
-            <marker date="1488194234452" expanded="true" signature="1787:2116" ph="{...}" />
-            <marker date="1488194234452" expanded="true" signature="1849:1865" ph="{...}" />
-            <marker date="1488194234452" expanded="false" signature="1933:1952" ph=" { " />
-            <marker date="1488194234452" expanded="false" signature="1972:1986" ph=" }" />
-            <marker date="1488194234452" expanded="false" signature="2048:2067" ph=" { " />
-            <marker date="1488194234452" expanded="false" signature="2092:2106" ph=" }" />
+            <marker date="1488191057787" expanded="false" signature="99:110" ph=" { " />
+            <marker date="1488191057787" expanded="false" signature="150:156" ph=" }" />
+            <marker date="1488191057787" expanded="false" signature="205:216" ph=" { " />
+            <marker date="1488191057787" expanded="false" signature="238:244" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/books.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <marker date="1488199610476" expanded="false" signature="40:429" ph="..." />
+            <marker date="1488199610476" expanded="true" signature="535:790" ph="{...}" />
+            <marker date="1488199610476" expanded="true" signature="860:1285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/serialization/CsvFeedReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <marker date="1488199128577" expanded="true" signature="54:312" ph="..." />
+            <marker date="1488199128577" expanded="true" signature="427:842" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="923:1275" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1360:1713" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1761:2134" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1798:2127" ph="{...}" />
+            <marker date="1488199128577" expanded="true" signature="1860:1876" ph="{...}" />
+            <marker date="1488199128577" expanded="false" signature="1944:1963" ph=" { " />
+            <marker date="1488199128577" expanded="false" signature="1983:1997" ph=" }" />
+            <marker date="1488199128577" expanded="false" signature="2059:2078" ph=" { " />
+            <marker date="1488199128577" expanded="false" signature="2103:2117" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,37 +2060,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/goeuro/examination/MainAppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/books.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1488197906930" expanded="false" signature="40:384" ph="..." />
-            <marker date="1488197906930" expanded="true" signature="490:745" ph="{...}" />
-            <marker date="1488197906930" expanded="true" signature="815:1178" ph="{...}" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/JsonPublicationFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/goeuro/examination/serialization/fixtures/magazines.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1488197144061" expanded="true" signature="47:112" ph="..." />
-            <marker date="1488197144061" expanded="false" signature="265:276" ph=" { " />
-            <marker date="1488197144061" expanded="false" signature="288:294" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goeuro/examination/format/InlinePublicationFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
