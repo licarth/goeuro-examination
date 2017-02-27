@@ -19,7 +19,7 @@ public class MainAppTest {
         new CsvDataLoader(new CsvFeedReader(), library).loadCsvResources()
                 .subscribe();
 
-        System.out.println(library.getPublicationsByAuthor("null-lieblich@goeuro.com"));
+        System.out.println(library.getPublicationsByAuthor("null-walter@goeuro.com"));
     }
 
     @Test
@@ -35,7 +35,7 @@ public class MainAppTest {
                 .subscribe();
 
         System.out.println(formatter.format(
-                library.getPublicationsByAuthor("null-ferdinand@goeuro.com")
+                library.getPublicationsByAuthor("null-walter@goeuro.com")
         ));
     }
 

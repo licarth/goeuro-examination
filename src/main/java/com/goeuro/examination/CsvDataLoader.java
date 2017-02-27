@@ -8,7 +8,6 @@ import com.goeuro.examination.store.Library;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import rx.Observable;
 
