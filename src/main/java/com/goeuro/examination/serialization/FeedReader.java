@@ -9,7 +9,7 @@ import java.net.URI;
 
 import rx.Observable;
 
-interface FeedReader {
+public interface FeedReader {
 
     Observable<MagazinePOJO> readMagazines(URI uri) throws IOException;
     Observable<BookPOJO> readBooks(URI uri) throws IOException;

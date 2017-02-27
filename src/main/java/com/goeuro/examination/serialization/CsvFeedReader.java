@@ -16,7 +16,7 @@ import rx.Observable;
 /**
  * Asynchronously reads from the file.
  */
-class CsvFeedReader implements FeedReader {
+public class CsvFeedReader implements FeedReader {
 
     @Override
     public Observable<MagazinePOJO> readMagazines(URI uri) throws IOException {
