@@ -1,17 +1,17 @@
 package com.goeuro.examination.serialization.pojo;
 
-import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class BookPOJO {
-
-    //title;isbnNumber;authors;description
 
     private String title;
     private String isbnNumber;
-    private AuthorPOJO[] authors;
+    private String[] authors;
     private String description;
 
 }

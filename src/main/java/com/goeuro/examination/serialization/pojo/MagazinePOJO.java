@@ -1,12 +1,25 @@
 package com.goeuro.examination.serialization.pojo;
 
-import lombok.Builder;
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+import java.util.Date;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class MagazinePOJO {
-    private String firstname;
-    private String lastname;
-    private String email;
+
+    //title;isbnNumber;authors;publishedAt
+
+    private String title;
+    private String isbnNumber;
+    private String[] authors;
+
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd.MM.yyyy", timezone="CET")
+    private Date publishedAt;
+    
 }

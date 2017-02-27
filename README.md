@@ -21,3 +21,5 @@ be anything else than the pure reflection of the csv structures. NO LOGIC IN THE
 
 ### Difficulties 
 * CSV ',' values within csv ';' rows for author lists.
+* Date deserialization (non-standard format)
+* Data validation and error handling.
